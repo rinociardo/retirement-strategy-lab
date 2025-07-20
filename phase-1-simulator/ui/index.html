@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retirement Strategy Lab</title>
+  <!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- Chart.js Annotation Plugin -->
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.1.0/dist/chartjs-plugin-annotation.min.js"></script>
+  <script type="module" src="./script.js" defer></script>
+  <style>
+    canvas {
+      max-width: 800px;
+      margin: 40px auto;
+      display: block;
+    }
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Financial Longevity Simulator</h1>
+  <div id="inputSection"></div>
+  <!-- <div id="inputsPanel"></div> -->
+  <div id="lifeExpectancyPanel"></div>
+  <canvas id="assetChart" width="800" height="400"></canvas>
+  <canvas id="flowChart" width="800" height="400"></canvas>
+  
+</body>
+</html>

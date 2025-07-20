@@ -10,8 +10,8 @@ export const userParams = {
   lifestyleFloor: 45000,
 
   // Pension streams
-  pension1Monthly: 1200,
-  pension2Monthly: 0,
+  pension1Monthly: 2300,
+  pension2Monthly: 1000,
   colaRate: 0.02,
 
   // Risk/return envelope

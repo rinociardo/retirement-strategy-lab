@@ -65,6 +65,7 @@ export function bindToUserParams(field, inputEl) {
   // Bind change handler
   input.addEventListener('change', () => {
     userParams[field.key] = field.type === 'checkbox' ? input.checked : parseInput(input.value, field.type);
+    runSimulation()
   });
 }
 

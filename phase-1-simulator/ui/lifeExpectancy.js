@@ -154,6 +154,16 @@ container.appendChild(createFieldBlock('Country:', countrySelect));
     })));
   }
 
+genderSelect.addEventListener('change', () => {
+    updateTable();
+    runSimulation();
+});
+
+countrySelect.addEventListener('change', () => {
+    updateTable();
+    runSimulation();
+});
+
   dobInput.addEventListener('change', updateTable);
   healthSelect.addEventListener('change', updateTable);
 
